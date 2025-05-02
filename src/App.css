@@ -1,0 +1,52 @@
+.icon-style:hover{
+  color: lightcoral;
+  transition: all 0.5s ease-in-out;
+}
+
+.custom-navbar{
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.navbar-brand,
+.nav-link{
+  color: #212529 !important;
+  font-family: Roboto,sans-serif;
+  letter-spacing: 0.3px;
+}
+
+.nav-link{
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover{
+  color:lightcoral !important;
+}
+
+.active-link{
+  color: lightcoral !important;
+  padding-bottom: 3px;
+  padding-bottom: 10px;
+}
+
+.btn-outline-dark:hover{
+  background-color: #000;
+  color: white;
+}
+
+.home-container {
+  background-image: url('/src/assets/home-background.svg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  padding-top: 80px; 
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
