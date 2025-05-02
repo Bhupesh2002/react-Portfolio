@@ -20,14 +20,14 @@ let Home = () => {
           </div>
           <div className="d-flex justify-content-center gap-4 mt-3">
             <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" 
-            className="fs-4 rounded-circle text-warning media-icons">
+            className="fs-5 text-light media-icons">
               <FaLinkedin />
             </a>
             <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" 
-            className="fs-4 rounded-circle text-warning media-icons">
+            className="fs-5 text-light media-icons">
               <FaGithub />
             </a>
-            <a href="mailto:rajanbhupesh@gmail.com" className="fs-4 rounded-circle text-warning media-icons">
+            <a href="mailto:rajanbhupesh@gmail.com" className="fs-5 text-light media-icons">
               <FaEnvelope />
             </a>
           </div>
