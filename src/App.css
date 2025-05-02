@@ -52,9 +52,9 @@
 }
 
 .media-icons{
-  background-color: lightcoral;
+  background-color: orange;
   border-radius: 50%;
-  padding: 7px;
+  padding: 10px;
   color: #000;
   font-size: 20px;
   margin: 0px 10px;
@@ -62,7 +62,7 @@
 }
 
 .media-icons:hover{
-  background-color: darkred;
+  background-color: darkorange;
 }
 
 

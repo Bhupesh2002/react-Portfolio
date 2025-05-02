@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { Typewriter } from "react-simple-typewriter";
 import { NavLink } from "react-router-dom";
 
 
@@ -8,7 +9,20 @@ let Home = () => {
       <div className="home-container">
         <div className="home-content text-center">
           <h1 className="mb-3">Hi, I am Bhupesh</h1>
-          <h4 className="mb-4">Aspiring Full Stack Developer</h4>
+          <h4 className="mb-4">
+            I'm a {''}
+            <span style={{ color:"#FF5733", fontWeight:"bold" }}>
+            <Typewriter
+            words={ ['Full Stack Learner', 'Python & MySQL Enthusiast', 'Frontend & Backend Explorer'] }
+            loop cursor
+            cursorStyle="_"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+            >
+            </Typewriter>
+            </span>
+          </h4>
           <p className="mb-4 w-75 mx-auto">
             I’m passionate about building dynamic and responsive web applications using React, Python, and SQL. 
             I enjoy learning new technologies and creating solutions that make a difference.
