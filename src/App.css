@@ -1,3 +1,11 @@
+.loading-component{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
 .icon-style:hover{
   color: lightcoral;
   transition: all 0.5s ease-in-out;
@@ -21,11 +29,11 @@
 }
 
 .nav-link:hover{
-  color:lightcoral !important;
+  color: #FF5733 !important;
 }
 
 .active-link{
-  color: lightcoral !important;
+  color: #FF5733 !important;
   padding-bottom: 3px;
   padding-bottom: 10px;
 }
@@ -66,3 +74,23 @@
 }
 
 
+
+
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgb(238, 236, 236);
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%; 
+    text-align: center;
+  }
+
+
+}

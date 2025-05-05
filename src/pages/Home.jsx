@@ -2,9 +2,16 @@ import React from "react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import { NavLink } from "react-router-dom";
+import useLoading from "../hooks/useLoading";
+import Loading from "../components/Loading";
 
 
 let Home = () => {
+
+  let isLoading = useLoading(2000);
+
+  if (isLoading) return <Loading/> 
+  else{
     return (
       <div className="home-container">
         <div className="home-content text-center">
@@ -28,7 +35,7 @@ let Home = () => {
             I enjoy learning new technologies and creating solutions that make a difference.
           </p>
           <div className="mb-4">
-            <NavLink to={ '/projects' } className="btn btn-outline-secondary me-3">View Projects</NavLink>
+            <NavLink to={ '/projects' } className="btn btn-outline-danger me-3">View Projects</NavLink>
             <NavLink to={ '/about' } className="btn btn-outline-info me-3">About Me</NavLink>
 
           </div>
@@ -48,6 +55,7 @@ let Home = () => {
         </div>
       </div>
     );
+  }
   };
   
 

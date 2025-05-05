@@ -5,7 +5,7 @@ import { FaLaptopCode } from "react-icons/fa";
 
 let Navbar = () => {
     return(
-        <nav className="navbar navbar-expand-lg shadow-sm  custom-navbar">
+        <nav className="navbar navbar-expand-lg shadow-sm custom-navbar">
             <div className="container">
                 <NavLink className='navbar-brand fw-bold fs-4 text-dark' to={ '/' }>
                 <FaLaptopCode className="me-2 fs-1 icon-style"/>....</NavLink>
